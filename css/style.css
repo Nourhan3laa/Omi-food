@@ -1,0 +1,238 @@
+
+body{
+    font-family:Lato; color: white;
+    font-size: 16px;
+    color: #333;
+    background-color: white;
+}
+header{height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0 ,.6),rgba(0, 0, 0 ,.6)) ,
+        url(../images/hero.jpg);
+       background-position: center; background-size: cover}
+
+         
+.hero-box{position: absolute;
+     top:40%; left: 8%;
+}
+h1{ font-weight: lighter; color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 3px; margin-bottom: 20px;
+}
+.btn{
+    color: orange;
+    text-decoration: none; 
+    border: solid 1px orange;
+    margin-right: 10px;
+    padding: 10px 7px;
+    border-radius: 15px;
+}
+.btn:hover{
+    color:white; background-color: orange;
+}
+.logo {
+    height: 100px; margin-top: 10px;
+}
+.main-nav{ margin-top: 50px;
+    float: right;
+    list-style: none;
+}
+.main-nav li{ display:  inline-block ; margin-right: 7px;
+   
+}
+.main-nav li a{
+    color: white; text-decoration: none;
+    text-transform: uppercase;
+}
+.main-nav li a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+h2{
+    text-align: center; color: rgba(0, 0, 0, 0.521);
+    font-weight: lighter; font-style: verdana; font-size: 35px;
+    letter-spacing: 4px; font-weight: lighter;
+    text-transform: uppercase; margin-bottom: 16px;
+}
+hr{
+    width: 100px;
+    margin-left: 500px;
+    border: solid 1px orange;
+    margin-bottom: 30px;
+
+}
+.features-text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+ .box h3{text-align: center;
+text-transform: uppercase;
+font-weight: lighter;
+margin-bottom: 10px;
+}
+.box i{
+    color: orange;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.box p{
+    margin-bottom: 30px;
+}
+.meals{margin-top: 20px;}
+
+.meal img{
+    transform:scale(1.1) ;}
+    
+    .row{
+    margin: 0px;
+}
+#app-iphone{ margin-top: -20px; padding-top: 40px;
+     background-color: #f4f4f4e7;
+}
+
+#app-iphone img{width: 180px; margin-top:  1%; margin-left: 30%;
+
+}
+.simple-as{
+    float: right; 
+}
+h4{ border: solid 2px orange ; width: 50px; height: 50px;
+    border-radius: 50%; padding: 5px; margin-right: 15px; text-align: center;
+font-size: 30px;color: orange; font-weight: lighter;
+}
+.simple-as p{
+    margin-top: -75px; margin-left: 65px;
+    font-size: 16px; font-family: arial;
+}
+.rwork{margin-top: -370px; margin-left:550px ;}
+
+
+.nour-1 img{ float: right; margin-bottom: -700px; padding-top: -200px;
+
+}
+.city i{
+    color: orange; margin-right: 10px;
+}
+.city h3{ margin-top: 5px; font-family:vetdana; font-weight: lighter;
+text-transform: uppercase;
+}
+.city a{color: orange;
+
+}
+#cities hr{ margin-left:620px;
+
+}
+table{width: 100%;}
+input[type=text] , input[type=email] ,input[placeholder=name] ,input[placeholder=Email] , select , textarea {
+    width: 300px; padding: 7px; margin-bottom: 5px;
+border-radius: 2px; border: solid 1px grey; padding-right: 30px; }
+
+
+.Customers {
+    height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0 ,.8),rgba(0, 0, 0 ,.8)) ,
+        url(../images/back-customers.jpg);
+       background-position: center; background-size: cover}
+
+.Customers h2{color: white;  font-weight: 0px;
+    padding-top: 50px;
+} 
+.Customers hr{ margin-left: 620px;}  
+.Customers p{ color: white; } 
+.customer i{font-size: 20px; color: white; margin-TOP: 60px; font-style: normal;
+}
+.customer p{ font-family: verdana; font-weight: lighter;
+    margin-top: 50px; text-align: center; width: 120%;
+}
+.customer img{border: solid .5px ;
+    border-radius: 50%;
+    width: 60px; vertical-align: middle;
+}
+span{
+    color: white; 
+}
+.customer{
+  margin-right: 90px;
+}
+
+#Sign-up-plans{background-color:#f4f4f4e7 ;
+
+}
+.plans{width: 100%;
+   background-color:white  ;
+   margin-right: 90px; margin-bottom: 10px;
+}
+.plans h3{text-transform: uppercase; font-weight: lighter;
+
+}
+.plans h2{
+    color: orange; font-weight: lighter; font-style: normal;
+    font-size: 75px;
+}
+.plans span{
+    font-size: 15px;  color: orange; text-transform: none;
+    letter-spacing: normal;
+
+}
+ i{
+     color: orange;
+ }
+ footer{
+     background-color: rgba(0, 0, 0, 0.795);
+     color: grey; padding: 10px 0px; 
+    text-align: center;
+ }
+ .footer-nav{ margin-top: 50px;
+    float: left;
+    list-style: none;
+}
+.footer-nav li{ display:  inline-block ; margin-right: 7px;
+   
+}
+.footer-nav li a{color: grey;
+     text-decoration: none;
+    text-transform: uppercase;
+}
+
+.social-nav{ margin-top: 50px;
+    float: right;
+    list-style: none;
+}
+.social-nav li{ display:  inline-block ; margin-right: 7px;
+   
+}
+.social-nav li a{color: grey;
+     text-decoration: none;
+    text-transform: uppercase;
+}
+footer i{
+    color: gray;
+}
+#contacts{ background-color: #f4f4f4e7; 
+    margin-top: -20px; padding-top: 40px;
+}
+#contacts td{ text-transform: capitalize;
+    letter-spacing: 1px; font-size: 18px; font-family: verdana;
+padding-bottom: 15px;  
+}
+
+    
+ 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
